@@ -1,0 +1,31 @@
+import java.io.*;
+import java.lang.*;
+
+public class EmpDetail 
+{
+
+         public String firstName;
+	 public String lastName;
+	 public String age;
+
+public EmpDetail(String firstNmae)
+	{
+	ts.add(firstName);
+}
+public EmpDetail(String lastName) {
+	ts.add(lastName);
+}
+public EmpDetail(string age) {
+	ts.add(age);
+}
+	
+class Employee
+{
+public static void main(String arg[]) {
+ TreeSet ts = new TreeSet();
+    EmpDetail emp =new EmpDetail("John");
+	EmpDetail emp =new EmpDetail("Richord");
+	EmpDetail emp =new EmpDetail("29");
+
+}
+}
